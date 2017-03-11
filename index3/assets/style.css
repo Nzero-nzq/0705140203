@@ -34,5 +34,5 @@ body{
 	line-height:36px;
 	}
 .quickLinks a:hover{
-	box-shadow: 0 0 10px #0080FF;
+	box-shadow: 0 0 10px 5px #0080FF;
 	}
