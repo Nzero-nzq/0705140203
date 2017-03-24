@@ -3,7 +3,7 @@ body{
 	padding:0;
 	margin:0;
 	}
-	ul,li{
+ul,li{
 	padding:0;
 	margin:0;	
 	}
@@ -69,12 +69,12 @@ body{
 	transition:2s;
 }
 	.banner1{
-		width:100%;
+		width:1366px;
 		background:url("../img/banner1.jpg") no-repeat;
 		background-size:100%;
 	}
 	.banner2{
-		width:100%;
+		width:1366px;
 		background:url("../img/banner2.jpg") no-repeat;
 		background-size:100%;
 	}
