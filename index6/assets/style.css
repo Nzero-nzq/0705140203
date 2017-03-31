@@ -1,0 +1,144 @@
+﻿@charset "utf-8";
+body{
+	padding:0;
+	margin:0;
+	}
+ul,li{
+	padding:0;
+	margin:0;	
+	}
+.content{
+	width:100%;
+	min-width:980px;
+	margin:0 auto;
+	}
+.header{
+	width:100%;
+	height:100px;
+	background:#DFDFDF;
+	margin:0 auto;
+	}
+.header img{
+	float:left;
+	}
+.quickLinks{
+	width:30%;
+	height:50px;
+	margin-top:32px;
+	float:right;
+	text-align:center;
+	}
+.quickLinks a{
+	display:inline-block;
+	width:60px;
+	height:36px;
+	border:1px #1176DB solid;
+	color:#1176DB;
+	text-decoration:none;
+	font-size:12px;
+	font-family:"华文行楷";
+	line-height:36px;
+	}
+.quickLinks a:hover{
+	box-shadow: 0 0 10px #98CCFC;.
+	}
+.title{
+	color:#0099CC;
+	font-weight: bold;
+	font-size: 20px;
+}
+	/*------------------导航样式----------------*/
+.nav{
+		width:100%;
+		height:60px;
+		background:#F5F6EB;
+	}
+.nav ul li{
+		text-align: center;
+		list-style: none;
+		float:left;
+		width: 100px;
+		height:60px;
+		line-height: 60px;
+	}
+.nav ul li a{
+		display:block;
+		width:100px;
+		height:60px;
+		color:#495A80;
+		text-decoration:none;
+	}
+.nav ul{
+		width: 800px;
+		margin: 0 auto;
+	}
+.nav ul li:hover{
+	background: #c7ceb2;
+	transition:2s;
+}
+	/*------------------导航样式结束----------------*/
+	/*-------------------banner 开始----------------*/
+.banner1{
+		width:100%;
+		background:url("../img/banner1.jpg") no-repeat;
+		background-size:100%;
+	}
+.banner2{
+		width:100%;
+		background:url("../img/banner2.jpg") no-repeat;
+		background-size:100%;
+	}
+.swiper-container{
+		width:100%;
+	}
+	/*container里可以没有高度，但row要有*/
+.container{
+	width: 1000px;
+	margin:0 auto;
+	border: 1px #bbb solid;
+}
+.row{
+	width: 100%;
+	height:280px;
+	margin-top:20px;
+}
+#cols1-2{
+	width: 350px;
+}
+#cols1-2 ul{
+	margin-top:40px;
+}
+#cols1-2 ul li{
+	list-style:none ;
+	margin-top:10px;
+}
+.channle{
+font-size:12px;
+color: #bbb;
+}
+.datetime{
+font-size:12px;
+float: right;
+color: #bbb;
+}
+#cols1-2 ul li a{
+	color: #6D6D6D;
+	text-decoration: none;
+}
+#cols1-2 ul li a:hover{
+	color:#bbb;
+}
+#cols1-3{
+	width:250px;
+}
+.cols{
+	width: 300px;
+	height: 250px;
+	margin-left:25px;
+	float: left;
+}
+#cols1-3 p{
+	/*上右下左*/
+	/*padding: 0 5px 0 5px;*/
+	padding: 0 5px;
+}

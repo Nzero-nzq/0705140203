@@ -1,0 +1,86 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>网传官网·第六次改</title>
+<link rel="stylesheet" type="text/css" href="assets/style.css"/>
+<link rel="stylesheet" type="text/css" href="assets/swiper-3.4.2.min.css"/>
+</head>
+<body>
+    <div class="content">
+    	   <div class="header">
+        	   <img src="img/logo.png">
+             <div class="quickLinks">
+            	  <a href="#">教师通道</a>
+             	  <a href="#">学生入口</a> 
+             	  <a href="#">管理员</a>
+                </div>
+            </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">师资</a></li>
+                <li><a href="#">历史</a></li>
+                <li><a href="#">精彩</a></li>
+                <li><a href="#">天圆</a></li>
+                <li><a href="#">地方</a></li>
+                <li><a href="#">地方</a></li>
+                <li><a href="#">地方</a></li>
+            </ul>
+        </div>
+         <div class="banner"></div>
+    </div>
+ <!-- swiper start -->
+ <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="banner1 swiper-slide"></div>
+        <div class="banner2 swiper-slide"></div>
+    </div>
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+<div class="container">
+        <div class="row">
+        <!-- id唯一，cols可重复使用;层叠样式优先级中，行内样式>id>class -->
+            <div class="cols" id="cols1-1"></div>
+            <div class="cols" id="cols1-2">
+            <ul>
+            <li><span class="channle">[栏目]</span><a href="#">&nbsp;&nbsp;标题标题标题标题</a><span class="datetime">2017/3/31</span></li>
+            <li><span class="channle">[栏目]</span><a href="#">&nbsp;&nbsp;标题标题标题标题</a><span class="datetime">2017/3/31</span></li>
+            <li><span class="channle">[栏目]</span><a href="#">&nbsp;&nbsp;标题标题标题标题</a><span class="datetime">2017/3/31</span></li>
+            <li><span class="channle">[栏目]</span><a href="#">&nbsp;&nbsp;标题标题标题标题</a><span class="datetime">2017/3/31</span></li>
+            <li><span class="channle">[栏目]</span><a href="#">&nbsp;&nbsp;标题标题标题标题</a><span class="datetime">2017/3/31</span></li>
+            <li><span class="channle">[栏目]</span><a href="#">&nbsp;&nbsp;标题标题标题标题</a><span class="datetime">2017/3/31</span></li>
+            <li><span class="channle">[栏目]</span><a href="#">&nbsp;&nbsp;标题标题标题标题</a><span class="datetime">2017/3/31</span></li>
+            </ul>
+            </div>
+            <div class="cols" id="cols1-3">
+                <span class="title">学院概况</span>
+                <p>
+                网络传播学院是中国互联网新闻中心与浙江越秀外国语学院合办的中国互联网人才培养的重要基地，其培养目标是：为中国互联网行业培养高素质、高层次的互联网媒体新闻、经营、技术和管理人才。 学院现有编辑出版学、传播学、新闻学、网络与新媒体和数字媒体艺术五个本科专业。
+                </p>
+            </div>
+        </div>
+        <div class="row"></div>
+        <div class="row"></div>
+</div>
+</body>
+<!-- 脚本的标签 js文件 依赖的文件一定要写在最上面 -->
+<script src="assets/jquery-3.1.1.min.js"></script>
+<script src="assets/swiper.jquery.min.js"></script>
+<script>
+/*var 定义一个变量,new 初始化一个控件*/
+var mySlide = new Swiper ('.swiper-container', {
+    loop: true,
+    // 如果需要前进后退按钮
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+  })        
+/*获取浏览器的视口的宽度*/
+var width=$(document).width();
+var height=width *300/2000;
+$('.swiper-container').css('height',height+'px')
+/*alert动态获取视口宽高*/
+</script>
+</html>
