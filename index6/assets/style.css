@@ -36,7 +36,7 @@ ul,li{
 	color:#1176DB;
 	text-decoration:none;
 	font-size:12px;
-	font-family:"华文行楷";
+	font-family:华文行楷;
 	line-height:36px;
 	}
 .quickLinks a:hover{
@@ -93,7 +93,7 @@ ul,li{
 	}
 	/*container里可以没有高度，但row要有*/
 .container{
-	width: 1000px;
+	width: 980px;
 	margin:0 auto;
 	border: 1px #bbb solid;
 }
@@ -134,7 +134,7 @@ color: #bbb;
 .cols{
 	width: 300px;
 	height: 250px;
-	margin-left:25px;
+	margin-left:20px;
 	float: left;
 }
 #cols1-3 p{
