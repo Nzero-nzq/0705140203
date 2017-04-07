@@ -80,12 +80,12 @@ ul,li{
 	/*------------------导航样式结束----------------*/
 	/*-------------------banner 开始----------------*/
 .banner1{
-		width:2000px;
+		width:100%;
 		background:url("../img/banner1.jpg") no-repeat;
 		background-size:100%;
 	}
 .banner2{
-		width:2000px;
+		width:100%;
 		background:url("../img/banner2.jpg") no-repeat;
 		background-size:100%;
 	}
